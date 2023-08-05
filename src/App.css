@@ -1,0 +1,29 @@
+.btns {
+  display: block;
+  margin: -10px;
+  height: 10vh;
+  border-radius: 10px;
+}
+.btn {
+  background-color: blue;
+  width: 50%;
+  height: 8vh;
+  border-radius: 0 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: lightblue;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  display: block;
+  /* border: 1px solid black; */
+}
+/* .active {
+  background-color: lightblue;
+} */
